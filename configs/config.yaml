@@ -1,0 +1,29 @@
+# ResilientVLM Configuration
+
+# Data configuration
+data:
+  raw_data_dir: data/raw
+  interim_data_dir: data/interim
+  processed_data_dir: data/processed
+
+# Model configuration
+model:
+  visual_encoder:
+    type: "vision_transformer"
+    pretrained: true
+  knowledge_adapter:
+    hidden_dim: 768
+  fusion:
+    method: "cross_attention"
+
+# Training configuration
+training:
+  batch_size: 32
+  learning_rate: 0.0001
+  num_epochs: 100
+  device: "cuda"
+
+# Logging
+logging:
+  level: "INFO"
+  output_dir: "outputs"

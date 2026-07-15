@@ -1,0 +1,1 @@
+"""Spatial utilities for ResilientVLM."""
