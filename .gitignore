@@ -1,0 +1,25 @@
+# Python environment
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local caches
+data/interim/osmnx_cache/
+
+# Downloaded and generated datasets
+data/raw/sen1floods11/
+data/processed/
+
+# Generated outputs
+outputs/tables/
+outputs/vlm_baselines/
+
+# Generated transportation artifacts
+notebooks/transportation_knowledge/
