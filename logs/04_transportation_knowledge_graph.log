@@ -1,0 +1,4 @@
+nohup: ignoring input
+[NbConvertApp] Converting notebook notebooks/04_transportation_knowledge_graph.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 154614 bytes to notebooks/../executed_notebooks/04_transportation_knowledge_graph_executed.ipynb
