@@ -26,10 +26,8 @@ The project integrates Sentinel-1 and Sentinel-2 imagery from the SEN1FLOODS11 d
 - [Outputs](#outputs)
 - [Running on an HPC System](#running-on-an-hpc-system)
 - [Development Notes](#development-notes)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Authors](#authors)
-- [License](#license)
 
 ---
 
@@ -180,76 +178,6 @@ Resilience Graph Analysis
                     │ road impacts + network   │
                     └──────────────────────────┘
 ```
-
----
-
-## Repository Structure
-
-```text
-ResilientVLM/
-├── configs/
-│   └── config.yaml
-│
-├── data/
-│   ├── raw/
-│   ├── interim/
-│   ├── processed/
-│   └── outputs/
-│
-├── executed_notebooks/
-│
-├── logs/
-│
-├── notebooks/
-│   ├── 01_data_discovery.ipynb
-│   ├── 02_dataset_acquisition.ipynb
-│   ├── 02A_recover_missing_s1_s2_downloads.ipynb
-│   ├── 03_scene_quality_selection.ipynb
-│   ├── 04_transportation_knowledge_graph.ipynb
-│   ├── 05_transport_knowledge.ipynb
-│   ├── 06_road_flood_grounding.ipynb
-│   ├── 07_instruction_generation.ipynb
-│   ├── 08_build_vlm_dataset.ipynb
-│   └── additional model, training, evaluation, and ablation notebooks
-│
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   ├── maps/
-│   ├── checkpoints/
-│   └── reports/
-│
-├── scripts/
-│
-├── src/
-│   ├── data/
-│   │   ├── flood.py
-│   │   ├── osm.py
-│   │   ├── fema.py
-│   │   └── census.py
-│   │
-│   ├── models/
-│   │   ├── visual_encoder.py
-│   │   ├── knowledge_adapter.py
-│   │   ├── fusion.py
-│   │   └── resilience_graph.py
-│   │
-│   └── utils/
-│       ├── spatial.py
-│       └── metrics.py
-│
-├── create_notebook14.py
-├── inventory.py
-├── patch_continue_from_adapter.py
-├── patch_notebook10_sturm_classification_prompt.py
-├── patch_notebook10_sturm_paths.py
-├── patch_notebook12.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-Some notebook backup files and recovery scripts are retained in the repository for development continuity. These can be archived or removed before a production release.
 
 ---
 
