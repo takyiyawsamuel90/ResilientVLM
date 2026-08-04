@@ -888,30 +888,6 @@ For reproducible runs:
 
 ---
 
-## Roadmap
-
-- [ ] Add a command-line pipeline runner.
-- [ ] Convert core notebook logic into reusable Python modules.
-- [ ] Add automated dataset validation.
-- [ ] Add end-to-end scene processing from one command.
-- [ ] Add downloadable sample data.
-- [ ] Add pretrained model checkpoints.
-- [ ] Add Hugging Face dataset and model integration.
-- [ ] Add interactive road-flood maps.
-- [ ] Add automated network resilience reports.
-- [ ] Add confidence and uncertainty estimates.
-- [ ] Add cross-country generalization evaluation.
-- [ ] Add additional flood datasets.
-- [ ] Add model explainability and visual grounding.
-- [ ] Add structured experiment tracking.
-- [ ] Add `pytest` test coverage.
-- [ ] Add continuous integration.
-- [ ] Add Docker support.
-- [ ] Remove local virtual environments and notebook backups from Git.
-- [ ] Add a formal release workflow.
-
----
-
 ## Contributing
 
 Contributions are welcome.
