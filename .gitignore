@@ -37,3 +37,7 @@ outputs/
 *.pt
 *.bin
 *.pth
+logs/
+executed_notebooks/
+*.log
+*.txt
