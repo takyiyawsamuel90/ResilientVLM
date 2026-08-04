@@ -210,7 +210,7 @@
         "    if 'Task:' in text: text=text[text.index('Task:'):]\n",
         "    elif instruction: text='Task: '+instruction\n",
         "    text=re.sub(r'\\n{3,}','\\n\\n',text).strip()\n",
-        "    return ('Task: Assess the roadway flood burden and potential transportation disruption using only visible evidence from the Sentinel-2 optical and Sentinel-1 radar images.\\nDescribe visible flood extent, roadway impacts, and uncertainty. Do not infer exact roadway counts, percentages, scene identifiers, or assigned categories unless visually supported.')\n",
+        "    return text+'\\nUse only visible image evidence. Do not infer exact roadway counts, percentages, scene identifiers, or assigned categories unless visually supported.'\n",
         "\n",
         "def adapt_prompt(row,experiment):\n",
         "    text=str(row['prompt'])\n",

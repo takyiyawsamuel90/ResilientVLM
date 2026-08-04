@@ -1,4 +1,11 @@
-# Python environment
+# Training outputs
+outputs/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+wandb/
+logs/# Python environment
 .venv/
 venv/
 
@@ -23,3 +30,10 @@ outputs/vlm_baselines/
 
 # Generated transportation artifacts
 notebooks/transportation_knowledge/
+data/external/
+*.zip
+outputs/
+*.safetensors
+*.pt
+*.bin
+*.pth
